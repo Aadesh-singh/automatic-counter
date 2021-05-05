@@ -1,7 +1,29 @@
 body {
     font-family: sans-serif;
-    background-color: #d8f8ff;
+    background-color: pink;
     margin: 50px;
+}
+
+#insert{
+    text-align: center;
+    line-height: 9rem;
+    background: linear-gradient(90deg, white , pink);
+    border-radius: 10px;
+}
+#insert input {
+    font-size: 2rem;
+    border-radius: 10px;
+}
+#insert button {
+    padding: 10px 23px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+#counter {
+    font-size: 2rem;
+    position: relative;
+    left: 400px;
 }
 
 div {

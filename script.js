@@ -15,7 +15,7 @@ const startCounter =() => {
         if(current.textContent > terminate -2){
             
             clearInterval(interval);
-            
+            alert(`${next.textContent} reached!!`);
         }
         setTimeout(()=>{
             current.textContent = next.textContent;
